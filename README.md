@@ -171,6 +171,58 @@ Tests cover:
 - AI's ability to find winning moves
 - AI's ability to block human wins
 
+⚽ Football Score Prediction Game (Python)
+
+Welcome to the Score Prediction Game 🎮
+This is a simple Python console program that lets users predict the final scores of popular football matches, then compares their guess with a randomly generated outcome.
+
+🧠 Features
+
+🎯 Choose from 4 available football matches
+
+🧍‍♂️ Input your name and score prediction
+
+🔢 Random final score generator using Python’s random module
+
+💰 Win message if your prediction matches the generated result
+
+💡 Beginner-friendly example of:
+
+Dictionaries
+
+Input handling
+
+Classes and methods
+
+Random number generation
+
+📄 Example Gameplay
+Welcome to the prediction game.
+Enter your name: Emeka
+Hello Emeka, let's get started. Pick a game number from the list below....
+
+Here are the available games:
+1. Chelsea VS Man U
+2. Atalanta VS Napoli
+3. Bayern VS Frankfurt
+4. Barcelona VS Elche
+
+
+Example Gameplay
+Enter the number of your preferred game: 1
+You've picked 'Chelsea VS Man U'
+Enter your goals prediction for the home team: 2
+Enter your goals prediction for the away team: 1
+You've predicted (2, 1)
+Here is the final score
+(3, 2)
+Sorry, you're wrong try again later
+
+
+🧰 Tech Stack
+
+Language: Python 3
+Modules Used: random
 ---
 
 **Total Lines**: ~650 (well under 1200 limit)  
