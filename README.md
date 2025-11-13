@@ -35,7 +35,8 @@ How to write clean, modular, and documented Python code.
 
 🧑‍💻 Author
 
-Your Name (GitHub: @emeka-io)
+GitHub: @emeka-io
+X : @emeka_io 
 
 Built as part of my Python learning journey, learning how to build real programming projects.
 
@@ -171,6 +172,8 @@ Tests cover:
 - AI's ability to find winning moves
 - AI's ability to block human wins
 
+
+
 ⚽ Football Score Prediction Game (Python)
 
 Welcome to the Score Prediction Game 🎮
@@ -195,6 +198,7 @@ Input handling
 Classes and methods
 
 Random number generation
+
 
 📄 Example Gameplay
 Welcome to the prediction game.
