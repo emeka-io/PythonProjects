@@ -323,7 +323,7 @@ class Game:
             if self.game_mode == 'pva':
                 # AI turn: find best move and display it.
                 pos = AI.find_best_move(self.board)
-                print(f"  🤖 AI plays position {pos}.")
+                print(f" AI plays position {pos}.")
             else:
                 # Human vs Human: second human's turn.
                 pos = self.get_human_move()
@@ -334,7 +334,7 @@ class Game:
         # Check for win/draw.
         winner = self.board.check_winner()
         if winner:
-            print(f"  🎉 Player {winner} wins!")
+            print(f" Player {winner} wins!")
             return False
 
         if self.board.is_full():
