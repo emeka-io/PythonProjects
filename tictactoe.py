@@ -304,9 +304,9 @@ class Game:
                 if self.board.is_valid_move(pos):
                     return pos
                 else:
-                    print("  ❌ Invalid move! Cell occupied or out of range.")
+                    print(" Invalid move! Cell occupied or out of range.")
             except ValueError:
-                print("  ❌ Invalid input! Enter a number 1-9.")
+                print(" Invalid input! Enter a number 1-9.")
 
     def play_turn(self) -> bool:
         """
@@ -338,7 +338,7 @@ class Game:
             return False
 
         if self.board.is_full():
-            print("  🤝 It's a draw!")
+            print(" It's a draw!")
             return False
 
         # Switch player.
@@ -379,10 +379,10 @@ class Game:
             elif choice == '3':
                 self.score_manager.display_scores()
             elif choice == '4':
-                print("  👋 Thanks for playing! Goodbye.\n")
+                print(" Thanks for playing! Goodbye.\n")
                 break
             else:
-                print("  ❌ Invalid choice. Try again.\n")
+                print(" Invalid choice. Try again.\n")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
